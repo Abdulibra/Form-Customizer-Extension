@@ -1,0 +1,65 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://devtest2019.sharepoint.com/sites/Ishstar/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "17405b72-ff7b-414a-bd6a-0286cb2e63aa",
+        "PageType": 8,
+        "RootFolder": "/sites/Ishstar/Lists/TenantList",
+        "properties": {
+            "location": "Value",
+            "description": "Value",
+            "priority": "Value",
+            "staffMember": "Value"
+        }
+      }
+    },
+    "listFormCustomizer_NewForm": {
+      "pageUrl": "https://devtest2019.sharepoint.com/sites/Ishstar/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "17405b72-ff7b-414a-bd6a-0286cb2e63aa",
+        "PageType": 8,
+        "RootFolder": "/sites/Ishstar/Lists/TenantList",
+        "properties": {
+            "location": "Value",
+            "description": "Value",
+            "priority": "Value",
+            "staffMember": "Value"
+        }
+      }
+    },
+    "listFormCustomizer_EditForm": {
+      "pageUrl": "https://devtest2019.sharepoint.com/sites/Ishstar/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "17405b72-ff7b-414a-bd6a-0286cb2e63aa",
+        "PageType": 6,
+        "RootFolder": "/sites/Ishstar/Lists/TenantList",
+        "ID": 1,
+        "properties": {
+            "location": "Value",
+            "description": "Value",
+            "priority": "Value",
+            "staffMember": "Value"
+        }
+      }
+    },
+    "listFormCustomizer_ViewForm": {
+      "pageUrl": "https://devtest2019.sharepoint.com/sites/Ishstar/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "17405b72-ff7b-414a-bd6a-0286cb2e63aa",
+        "PageType": 4,
+        "RootFolder": "/sites/Ishstar/Lists/TenantList",
+        "ID": 1,
+        "properties": {
+            "location": "Value",
+            "description": "Value",
+            "priority": "Value",
+            "staffMember": "Value"
+        }
+      }
+    }
+  }
+}
